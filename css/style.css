@@ -20,8 +20,13 @@
 }
 
 .font{
-    font-family: 'Anton', sans-serif;
-    font-family: 'Staatliches', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    color: white;
+    background-color: #0061ff;
+    padding: 6px 15px;
 }
 
 /* HEADER */
@@ -38,7 +43,7 @@ header{
 }
 
 .main-nav-left{
-    padding: 0px 1018px 0px 43px;
+    padding: 0px 922px 0px 43px;
 }
 
 .main-nav-left li{
@@ -60,6 +65,7 @@ header .main-nav-right li{
 
 .main-nav-left a{
     text-decoration: none;
+    
 }
 
 .main-nav-right a{
@@ -68,4 +74,5 @@ header .main-nav-right li{
 
 .start-button a{
     text-decoration: none;
+    margin-right: 22px;
 }
