@@ -81,8 +81,9 @@ header .main-nav-right li{
 .jumbotron{
     background-color: #b4d0e7;
     width: 100vw;
-    height: 85vh;
+    height: 76vh;
     min-width: 2000px;
+    min-height: 800px;
 }
 
 .container-1{
@@ -126,7 +127,7 @@ header .main-nav-right li{
 }
 
 #jumbo-size-img{
-    width: 101%;
+    width: 80%;
     margin-left: 80px;
 }
 
@@ -141,26 +142,61 @@ main{
 }
 .container-2{
     margin: 0 auto;
-    width: 67%;
+    width: 74%;
     height: 100%;
     background-color: red;
 }
 
 #h1-size{
     padding-top: 250px;
-    font-size: 3.4em;
+    font-size: 3.1em;
     padding-bottom: 57px;
 }
 
+.radio-position{
+    vertical-align: middle;
+    width: 17px;
+}
+
 #radio-1-p{
-    font-size: 14px;
-    vertical-align: top;
+    font-size: 19px;
     display: inline;
-    margin-right: 10px;
+    margin-right: 17px;
 }
 
 #radio-2-p{
-    font-size: 14px;
-    vertical-align: top;
+    font-size: 19px;
     display: inline;
+}
+/* columns */
+.left-column{
+    background-color: aquamarine;
+    width: 23%;
+    height: 675px;
+    margin-top: 36px;
+    border: 1px solid grey;
+}
+
+.central-column{
+    background-color: aquamarine;
+    width: 23%;
+    height: 675px;
+    margin-top: 36px;
+    margin-left: 82px;
+    border: 1px solid grey;
+}
+
+.right-column{
+    background-color: aquamarine;
+    width: 23%;
+    height: 675px;
+    margin-top: 36px;
+    margin-left: 82px;
+    border: 1px solid grey;
+}
+
+.header-column{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
 }
