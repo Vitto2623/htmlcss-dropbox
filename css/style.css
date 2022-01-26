@@ -35,8 +35,10 @@ header{
     width: 100%;
     height: 80px;
     line-height: 80px;
-    min-width: 2000px;
-    padding: 0px 20px;
+}
+
+.main-nav-right{
+    
 }
 
 .logo{
@@ -44,7 +46,7 @@ header{
 }
 
 .main-nav-left{
-    padding: 0px 922px 0px 43px;
+    padding: 
 }
 
 .main-nav-left li{
@@ -61,7 +63,6 @@ header .main-nav-left li{
 
 header .main-nav-right li{
     display: inline;
-    margin-right: 39px;
 }
 
 .main-nav-left a{
@@ -83,7 +84,6 @@ header .main-nav-right li{
     background-color: #b4d0e7;
     width: 100vw;
     height: 76vh;
-    min-width: 2000px;
     min-height: 800px;
 }
 
@@ -139,7 +139,6 @@ header .main-nav-right li{
 main{
     width: 100vw;
     height: 300vh;
-    min-width: 2000px;
 }
 /*Secondo contenitore*/
 .container-2{
