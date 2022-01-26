@@ -78,6 +78,7 @@ header .main-nav-right li{
     text-decoration: none;
 }
 /* JUMBOTRON */
+/*Primo-contenitore*/
 .jumbotron{
     background-color: #b4d0e7;
     width: 100vw;
@@ -140,10 +141,11 @@ main{
     height: 300vh;
     min-width: 2000px;
 }
+/*Secondo contenitore*/
 .container-2{
     margin: 0 auto;
     width: 74%;
-    height: 100%;
+    height: 62%;
     background-color: red;
 }
 
@@ -172,7 +174,7 @@ main{
 .left-column{
     background-color: aquamarine;
     width: 23%;
-    height: 1104px;
+    height: 1070px;
     margin-top: 36px;
     border: 1px solid grey;
 }
@@ -180,7 +182,7 @@ main{
 .central-column{
     background-color: aquamarine;
     width: 23%;
-    height: 1104px;
+    height: 1070px;
     margin-top: 36px;
     margin-left: 82px;
     border: 1px solid grey;
@@ -189,7 +191,7 @@ main{
 .right-column{
     background-color: aquamarine;
     width: 23%;
-    height: 1104px;
+    height: 1070px;
     margin-top: 36px;
     margin-left: 82px;
     border: 1px solid grey;
@@ -273,4 +275,29 @@ main{
 
 .fa-check{
     color: #0061ff;
+}
+
+.bottom-column{
+    width: 80%;
+    height: 238px;
+    background-color: aquamarine;
+    margin-top: 1165px;
+    border-bottom: 1px solid gray;
+}
+
+.left-mod{
+    margin: 21px 25px;
+    line-height: 47px;
+}
+
+#btn-special-3{
+    margin-top: 30px;
+    margin-right: 83px;
+}
+/*Terzo-contenitore*/
+.container-3{
+    background-color: burlywood;
+    margin: 0 auto;
+    width: 74%;
+    height: 100%;
 }
