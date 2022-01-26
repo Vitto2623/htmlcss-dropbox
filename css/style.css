@@ -35,10 +35,19 @@ header{
     width: 100%;
     height: 80px;
     line-height: 80px;
+    padding: 0px 20px;
 }
 
 .logo{
     padding-top: 5.5px;
+}
+
+.main-nav-left{
+    padding: 0px 39px;
+}
+
+.main-nav-right{
+    padding: 0px 9px;
 }
 
 .main-nav-left li{
@@ -46,7 +55,7 @@ header{
 }
 
 .main-nav-right li{
-    margin-right: 10px;
+    margin-right: 34px;
 }
 
 header .main-nav-left li{
@@ -290,5 +299,64 @@ main{
     background-color: burlywood;
     margin: 0 auto;
     width: 74%;
+    height: 18%;
+}
+
+.container-3 img{
+    width: 37%;
+    margin-right: 45px;
+}
+
+.text-container-3{
+    background-color: green;
+    width: 40%;
+    height: 300px;
+    padding: 32px 167px 0px 0px;
+}
+
+.text-container-3 h2{
+    margin-bottom: 20px;
+}
+
+.text-container-3 p{
+    margin-bottom: 33px;
+}
+
+#btn-special-4{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 8px 19px;
+    border: 1px solid black;
+}
+/* Quarto contenitore */
+.container-4{
+    background-color: red;
+    margin: 0 auto;
     height: 100%;
+    width: 74%;
+}
+
+.container-4 h1{
+    font-size: 41px;
+    margin-bottom: 40px;
+}
+
+.first-row{
+    background-color: green;
+    width: 23%;
+    height: 563px;
+    margin-right: 82px;
+    margin-bottom: 166px;
+}
+
+.first-row img{
+    width: 100%;
+}
+
+.second-row{
+    background-color: green;
+    width: 23%;
+    height: 563px;
+    margin-right: 82px;
 }
