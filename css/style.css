@@ -99,7 +99,6 @@ header .main-nav-right li{
 .container-1{
     margin: 0 auto;
     width: 77%;
-    height: 100%;
 }
 
 .container-1 h1{
@@ -423,8 +422,27 @@ header .main-nav-right li{
 }
 
 .svg-container{
-    background-color: grey;
+    background-color:lightgrey;
     height: 45vh;
+}
+
+#img-special{
+    width: 10%;
+    padding-left: 50px;
+    padding-top: 45px;
+}
+
+.wrapper-2 p{
+    padding-top: 190px;
+    padding-left: 622px;
+    padding-right: 700px;
+    font-size: 21px;
+    margin-bottom: 50px;
+}
+
+.wrapper-2 h4{
+    padding-left: 622px;
+
 }
 
 .quadrato{
@@ -432,27 +450,122 @@ header .main-nav-right li{
     height: 100%;
     width: 28%;
 }
-
+/*Immagini svg*/
 .quadrato-1{
-    background-color: royalblue;
+    background-color:#a2d39b;
     width: 50%;
     height: 50%;
+    border: 10px solid #d0e9cd;
+}
+
+.quadrato-1 img{
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .quadrato-2{
-    background-color: salmon;
+    background-color: #61082b;
     width: 50%;
     height: 50%;
+}
+
+.quadrato-2 img{
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .quadrato-3{
-    background-color: seagreen;
+    background-color: #0093ce;
     width: 50%;
     height: 50%;
 }
 
+.quadrato-3 img{
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .quadrato-4{
-    background-color: black;
+    background-color: #ff1c1c;
     width: 50%;
     height: 50%;
+}
+
+.quadrato-4 img{
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#svg-color-1{
+    background-color: #d5001f;
+}
+
+#svg-color-2{
+    background-color: #b4d0e7;
+}
+
+#svg-color-3{
+    background-color: #0d2481;
+}
+
+#svg-color-4{
+    background-color: #ffd830;
+}
+/*Fine immagini svg*/
+/*Sesto contenitore*/
+.background{
+    width: 100vw;
+    background-color: #b4d0e7;
+    height: 40vh;
+}
+
+.container-6{
+    margin: 0 auto;
+    background-color: lime;
+    height: 40vh;
+    width: 65%;
+    padding: 150px 0px;
+}
+
+.container-6 h2{
+    color: #61082b;
+    font-size: 2.5em;
+    padding-right: 800px;
+}
+
+#btn-special-5{
+    background-color: white;
+    color: black;
+}
+
+.background-faq{
+    width: 100vw;
+    height: 70vh;
+}
+
+.container-7{
+    margin: 0 auto;
+    padding: 100px 0px;
+    background-color: brown;
+    width: 65%;
+    height: 70vh;
+    padding: 160px 0px;
+}
+
+.container-7 h2{
+    font-size: 1.9em;
+    margin-bottom: 50px;
+}
+#special-h4{
+    padding-left: 0px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
