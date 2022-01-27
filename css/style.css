@@ -146,7 +146,6 @@ header .main-nav-right li{
 /* MAIN */
 .wrapper-1{
     width: 100vw;
-    height: 300vh;
 }
 
 /*Secondo contenitore*/
@@ -458,6 +457,10 @@ header .main-nav-right li{
     border: 10px solid #d0e9cd;
 }
 
+#border{
+    border: none;
+}
+
 .quadrato-1 img{
     width: 50%;
     top: 50%;
@@ -506,6 +509,7 @@ header .main-nav-right li{
 
 #svg-color-1{
     background-color: #d5001f;
+    border: none;
 }
 
 #svg-color-2{
@@ -538,14 +542,21 @@ header .main-nav-right li{
 .container-6 h2{
     color: #61082b;
     font-size: 2.5em;
-    padding-right: 800px;
+}
+
+#box-word{
+    height: 90%;
+    width: 40%;
 }
 
 #btn-special-5{
     background-color: white;
     color: black;
+    border: none;
+    padding: 8px 60px;
+    margin-bottom: 50px;
 }
-
+/*F.A.Q.*/
 .background-faq{
     width: 100vw;
     height: 70vh;
@@ -564,8 +575,26 @@ header .main-nav-right li{
     font-size: 1.9em;
     margin-bottom: 50px;
 }
+
 #special-h4{
     padding-left: 0px;
     margin-top: 35px;
     margin-bottom: 35px;
+}
+/*FOOTER*/
+footer{
+    width: 100vw;
+    height: 40vh;
+}
+
+.background-footer{
+    background-color: cadetblue;
+    margin: 0 auto;
+    width: 78%;
+    height: 40vh;
+    padding: 80px 0px 30px 0px;
+}
+
+#main-list-1{
+    margin-right: 100px;
 }
