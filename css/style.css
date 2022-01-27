@@ -145,6 +145,11 @@ header .main-nav-right li{
     font-size: 39px;
 }
 /* MAIN */
+.wrapper-1{
+    width: 100vw;
+    height: 300vh;
+}
+
 /*Secondo contenitore*/
 .container-2{
     margin: 0 auto;
@@ -417,9 +422,13 @@ header .main-nav-right li{
 }
 
 /*Sezione-immagini-svg*/
+.wrapper-2{
+    width: 100vw;
+}
+
 .svg-container{
     background-color: grey;
-    height: 46vh;
+    height: 45vh;
 }
 
 .quadrato{
