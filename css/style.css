@@ -152,7 +152,6 @@ header .main-nav-right li{
 .container-2{
     margin: 0 auto;
     width: 65%;
-    background-color: red;
 }
 
 #h1-size{
@@ -178,44 +177,53 @@ header .main-nav-right li{
 }
 /* columns */
 .left-column{
-    background-color: aquamarine;
     width: 25%;
     height: 1070px;
     margin-top: 36px;
-    border: 1px solid grey;
-    
+    border: 1px solid lightgrey;
+    padding-right: 3px;
+}
+
+.left-column p{
+    padding-right: 30px;
+}
+
+.line-height{
+    line-height: 20px;
 }
 
 .central-column{
-    background-color: aquamarine;
     width: 25%;
     height: 1070px;
     margin-top: 36px;
     margin-left: 12.5%;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
+    padding-right: 3px;
 }
 
 .right-column{
-    background-color: aquamarine;
     width: 25%;
     height: 1070px;
     margin-top: 36px;
     margin-left: 12.5%;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
+    padding-right: 3px;
 }
 /* Contenuto colonne*/
 .header-column{
     text-align: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgrey;
     padding: 10px;
 }
 
 .text-container-1{
-    background-color: green;
     width: 100%;
-    height: 413px;
-    padding: 32px 8px 0px 29px;
+    padding: 32px 8px 0px 19px;
     line-height: 25px;
+}
+
+.text-container-1 h2{
+    margin-bottom: 10px;
 }
 
 .text-container-1 span{
@@ -225,16 +233,17 @@ header .main-nav-right li{
 .style-price{
     font-weight: bold;
     font-size: 15px;
+    margin-bottom: 10px;
 }
 
 .style-month{
-    color: #b3bbc2;
+    color: #667583;
     display: block;
     margin-bottom: 30px;
 }
 
 .margin-bottom-1{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .margin-bottom-2{
@@ -258,7 +267,6 @@ header .main-nav-right li{
 }
 
 .text-container-2{
-    background-color: green;
     padding: 24px 0px 0px 21px;
     line-height: 37px;
 }
@@ -287,9 +295,8 @@ header .main-nav-right li{
 .bottom-column{
     width: 100%;
     height: 238px;
-    background-color: aquamarine;
     margin-top: 1165px;
-    border-bottom: 1px solid gray;
+    border: 1px solid lightgrey;
 }
 
 .left-mod{
@@ -301,23 +308,25 @@ header .main-nav-right li{
     margin-top: 30px;
     margin-right: 23px;
 }
+
+.color-a{
+    color: #0565ff;
+}
+
 /*Terzo-contenitore*/
 .container-3{
-    background-color: burlywood;
     margin: 0 auto;
     margin-bottom: 100px;
     margin-top: 120px;
 }
 
 .container-3 img{
-    width: 45%;
-    margin-right: 45px;
+    width: 49%;
+    margin-right: 120px;
 }
 
 .text-container-3{
-    background-color: green;
     width: 40%;
-    height: 300px;
     padding: 32px 100px 0px 0px;
 }
 
@@ -350,7 +359,6 @@ header .main-nav-right li{
 .column-left{
     background-color: green;
     width: 25%;
-    height: 485px;
     margin-bottom: 166px;
 }
 
@@ -365,7 +373,6 @@ header .main-nav-right li{
 .first-row{
     background-color: green;
     width: 25%;
-    height: 485px;
     margin-left: 12.5%;
     margin-bottom: 166px;
 }
@@ -385,9 +392,8 @@ header .main-nav-right li{
 .second-row{
     background-color: green;
     width: 25%;
-    height: 485px;
     margin-left: 12.5%;
-    margin-bottom: 100px;
+    margin-bottom: 166px;
 }
 
 .second-row h2{
@@ -398,14 +404,11 @@ header .main-nav-right li{
     padding-right: 30px;
 }
 
-.second-row p{
-    padding-right: 30px;
-}
+
 /*Quinto-contenitore*/
 .container-5{
-    background-color: blueviolet;
     margin: 0 auto;
-    height: 19vh;
+    height: 20vh;
 }
 
 .container-5 h1{
@@ -413,6 +416,10 @@ header .main-nav-right li{
     padding-top: 17px;
     padding-right: 780px;
     font-size: 41px;
+}
+
+#color-a-2{
+    color: blue;
 }
 
 /*Sezione-immagini-svg*/
@@ -431,16 +438,8 @@ header .main-nav-right li{
     padding-top: 45px;
 }
 
-.wrapper-2 p{
-    padding-top: 190px;
-    padding-left: 622px;
-    padding-right: 700px;
-    font-size: 21px;
-    margin-bottom: 50px;
-}
-
 .wrapper-2 h4{
-    padding-left: 622px;
+    padding-left: 50px
 
 }
 
@@ -448,6 +447,7 @@ header .main-nav-right li{
     background-color: red;
     height: 100%;
     width: 28%;
+    display: block;
 }
 /*Immagini svg*/
 .quadrato-1{
@@ -533,7 +533,6 @@ header .main-nav-right li{
 
 .container-6{
     margin: 0 auto;
-    background-color: lime;
     height: 40vh;
     width: 65%;
     padding: 150px 0px;
@@ -578,9 +577,16 @@ header .main-nav-right li{
 
 #special-h4{
     padding-left: 0px;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    display: inline;
 }
+
+.fa-chevron-down{
+    display: inline;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    margin-left: 650px;
+}
+
 /*FOOTER*/
 footer{
     width: 100vw;
@@ -591,10 +597,54 @@ footer{
     background-color: cadetblue;
     margin: 0 auto;
     width: 78%;
-    height: 40vh;
+    height: 32vh;
     padding: 80px 0px 30px 0px;
 }
 
+.bottom-footer{
+    margin: 0 auto;
+    width: 78%;
+    height: 8vh;
+}
+
 #main-list-1{
-    margin-right: 100px;
+    height: 263px;
+    border-bottom: 1px solid black;
+}
+
+.list-width{
+    width: 10%;
+}
+
+.margin-right-list{
+    margin-right: 10%;
+}
+
+nav h1{
+    color: white;
+    margin-bottom: 15px;
+}
+
+nav li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    line-height: 25px;
+    color: white;
+}
+
+.fa-globe-americas{
+    padding-top: 35px;
+    margin-right: 2px;
+    color: grey;
+}
+
+#color-language{
+    color: grey;
+}
+
+.fa-caret-up{
+    color: grey;
 }
