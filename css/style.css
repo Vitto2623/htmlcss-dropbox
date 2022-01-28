@@ -177,15 +177,11 @@ header .main-nav-right li{
 }
 /* columns */
 .left-column{
-    width: 25%;
+    width: 28%;
     height: 1070px;
     margin-top: 36px;
     border: 1px solid lightgrey;
     padding-right: 3px;
-}
-
-.left-column p{
-    padding-right: 30px;
 }
 
 .line-height{
@@ -193,19 +189,19 @@ header .main-nav-right li{
 }
 
 .central-column{
-    width: 25%;
+    width: 28%;
     height: 1070px;
     margin-top: 36px;
-    margin-left: 12.5%;
+    margin-left: 8%;
     border: 1px solid lightgrey;
     padding-right: 3px;
 }
 
 .right-column{
-    width: 25%;
+    width: 28%;
     height: 1070px;
     margin-top: 36px;
-    margin-left: 12.5%;
+    margin-left: 8%;
     border: 1px solid lightgrey;
     padding-right: 3px;
 }
@@ -218,7 +214,7 @@ header .main-nav-right li{
 
 .text-container-1{
     width: 100%;
-    padding: 32px 8px 0px 19px;
+    padding: 32px 0px 0px 49px;
     line-height: 25px;
 }
 
@@ -267,20 +263,20 @@ header .main-nav-right li{
 }
 
 .text-container-2{
-    padding: 24px 0px 0px 21px;
-    line-height: 37px;
+    padding: 24px 0px 0px 34px;
+    line-height: 50px;
 }
 
 .left-column h3{
-    padding: 30px 0px 0px 21px
+    padding: 30px 0px 0px 28px
 }
 
 .central-column h3{
-    padding: 30px 0px 0px 21px
+    padding: 30px 0px 0px 28px
 }
 
 .right-column h3{
-    padding: 30px 0px 0px 21px
+    padding: 30px 0px 0px 28px
 }
 
 .text-container-2 li{
@@ -347,7 +343,7 @@ header .main-nav-right li{
 }
 /* Quarto-contenitore */
 .container-4{
-    background-color: red;
+    /*background-color: red;*/
     margin: 0 auto;
 }
 
@@ -357,7 +353,7 @@ header .main-nav-right li{
 }
 
 .column-left{
-    background-color: green;
+    /*background-color: green;*/
     width: 25%;
     margin-bottom: 166px;
 }
@@ -371,7 +367,7 @@ header .main-nav-right li{
 }
 
 .first-row{
-    background-color: green;
+    /*background-color: green;*/
     width: 25%;
     margin-left: 12.5%;
     margin-bottom: 166px;
@@ -390,7 +386,7 @@ header .main-nav-right li{
 }
 
 .second-row{
-    background-color: green;
+    /*background-color: green;*/
     width: 25%;
     margin-left: 12.5%;
     margin-bottom: 166px;
@@ -432,10 +428,16 @@ header .main-nav-right li{
     height: 45vh;
 }
 
+.white{
+    filter: invert(100%) sepia(0%) saturate(7491%) hue-rotate(328deg) brightness(104%) contrast(101%);
+}
+
 #img-special{
-    width: 10%;
-    padding-left: 50px;
-    padding-top: 45px;
+    width: 8%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
 }
 
 .wrapper-2 h4{
@@ -449,6 +451,20 @@ header .main-nav-right li{
     width: 28%;
     display: block;
 }
+
+#special-p-2{
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+#margin-right{
+    margin-right: 50px;
+}
+
+#margin-left{
+    margin-left: 190px;
+}
+
 /*Immagini svg*/
 .quadrato-1{
     background-color:#a2d39b;
@@ -564,7 +580,6 @@ header .main-nav-right li{
 .container-7{
     margin: 0 auto;
     padding: 100px 0px;
-    background-color: brown;
     width: 65%;
     height: 70vh;
     padding: 160px 0px;
@@ -591,10 +606,11 @@ header .main-nav-right li{
 footer{
     width: 100vw;
     height: 40vh;
+    background-color: black;
 }
 
 .background-footer{
-    background-color: cadetblue;
+    background-color: black;
     margin: 0 auto;
     width: 78%;
     height: 32vh;
@@ -609,7 +625,7 @@ footer{
 
 #main-list-1{
     height: 263px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .list-width{
